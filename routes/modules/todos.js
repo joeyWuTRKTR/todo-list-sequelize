@@ -4,6 +4,7 @@ const router = express.Router()
 const db = require('../../models')
 const Todo = db.Todo
 
+// Read
 router.get('/:id', (req, res) => {
   const id = req.params.id
   return Todo.findByPk(id)
