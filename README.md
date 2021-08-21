@@ -50,9 +50,11 @@ npm install
 4. 引入環境變數
 
 <br>
+```
 * 將 .env.example 改為 .env
-* 若使用Facebook登入，請到.env檔案修改FACEBOOK_ID & FACEBOOK_SECRET欄位(使用自己facebook-develope，建立應用程式)
 
+* 若使用Facebook登入，請到.env檔案修改FACEBOOK_ID & FACEBOOK_SECRET欄位(使用自己facebook-develope，建立應用程式)
+```
 <br>
 
 5. 建立資料庫
@@ -69,23 +71,24 @@ use todo_sequelize;
 <br>
 
 6. 建立資料庫欄位
-
-    npx sequelize db:migrate
-
-
+```
+npx sequelize db:migrate
+```
 7. 建立種子資料
-
-    npx sequelize db:seed:all
-
+```
+npx sequelize db:seed:all
+```
 
 8. 啟動網頁伺服器
-
-    npm run dev
-
+```
+npm run dev
+```
 9. 出現下列訊息，表示啟動成功。點選連結開啟網頁
-
+```
 App is running on http://localhost:3000
-
+```
 10. 測試帳號
+```
 * 測試帳號：user1@example.com 
 * 測試密碼：12345678
+```
