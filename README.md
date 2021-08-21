@@ -60,12 +60,12 @@ npm install
 
 <br>
 打開 MySQL workbench 並連線至本地資料庫，輸入下列指令建立資料庫 
-
-    drop database if exists todo_sequelize;
+```
+drop database if exists todo_sequelize;
 create database todo_sequelize;
 use todo_sequelize;
-
-* 預設資料庫名稱為 todo_sequelize，也可使用其他名稱，並將 config.js 中的 database 改為欲使用的資料庫名稱。
+```
+* 預設資料庫名稱為 todo_sequelize，若使用其他名稱，請將 config.js 中的 develope 的 database 欄位改為其他資料庫名稱。
 
 <br>
 
