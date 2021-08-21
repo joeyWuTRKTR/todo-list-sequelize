@@ -1,5 +1,7 @@
 # 待辦清單專案 todo-list-sequelize
+
 <br>
+
 練習用 node.js 搭配 express 框架開發網頁，讓使用者新增、瀏覽、修改和刪除待辦事項，以及透過 sequelize 操作 MySQL。
 
 <br>
@@ -15,7 +17,9 @@
 8.  使用者可以刪除待辦事項
 
 <br>
+
 ## 建置環境 - Environment
+
 <br>
 
 * node.js : ^10.15.0
