@@ -81,6 +81,6 @@ App is running on http://localhost:3000
 ```
 10. 測試帳號
 ```
-* 測試帳號：user1@example.com 
+* 測試帳號：root@example.com 
 * 測試密碼：12345678
 ```
