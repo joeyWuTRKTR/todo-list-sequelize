@@ -48,17 +48,12 @@ cd todo-list-sequelize
 npm install
 ```
 4. 引入環境變數
-
-<br>
 ```
 將 .env.example 改為 .env
 若使用Facebook登入，請到.env檔案修改FACEBOOK_ID & FACEBOOK_SECRET欄位(使用自己facebook-develope，建立應用程式)
 ```
-<br>
 
 5. 建立資料庫
-
-<br>
 打開 MySQL workbench 並連線至本地資料庫，輸入下列指令建立資料庫 
 ```
 drop database if exists todo_sequelize;
@@ -66,8 +61,6 @@ create database todo_sequelize;
 use todo_sequelize;
 ```
 * 預設資料庫名稱為 todo_sequelize，若使用其他名稱，請將 config.js 中的 develope 的 database 欄位改為其他資料庫名稱。
-
-<br>
 
 6. 建立資料庫欄位
 ```
