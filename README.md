@@ -51,9 +51,8 @@ npm install
 
 <br>
 ```
-* 將 .env.example 改為 .env
-
-* 若使用Facebook登入，請到.env檔案修改FACEBOOK_ID & FACEBOOK_SECRET欄位(使用自己facebook-develope，建立應用程式)
+將 .env.example 改為 .env
+若使用Facebook登入，請到.env檔案修改FACEBOOK_ID & FACEBOOK_SECRET欄位(使用自己facebook-develope，建立應用程式)
 ```
 <br>
 
